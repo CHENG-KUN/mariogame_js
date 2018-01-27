@@ -1,0 +1,11 @@
+.gamediv{
+    width: 500px;
+    height: 400px;
+    background-color: pink;
+}
+
+.controlcenter{
+    width: 200px;
+    height: 150px;
+    border: 1px solid red;
+}

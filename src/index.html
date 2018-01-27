@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MARIO GAME</title>
+    <link href="mario.css" type="text/css" rel="stylesheet">
+    <script language="javascript" src="mario.js"></script>
+    <script language="javascript" type="text/javascript">
+        function Mario() {
+            this.x = 0;
+            this.y = 0;
+            this.move=function(direct){
+                switch (direct){
+                    case 0:
+                        window.alert("move up");
+                        break;
+                    case 1:
+                        window.alert("move right");
+                        break;
+                    case 2:
+                        window.alert("move down");
+                        break;
+                    case 3:
+                        window.alert("move left");
+                        break;
+                }
+            }
+        }
+
+        var mario = new Mario();
+        
+        function marioMove(direct) {
+            switch (direct){
+                case 0:
+                    mario.move(direct);
+                    break;
+                case 1:
+                    mario.move(direct);
+                    break;
+                case 2:
+                    mario.move(direct);
+                    break;
+                case 3:
+                    mario.move(direct);
+                    break;
+                case 4:
+                    mario.move(direct);
+                    break;
+                default:
+                    window.alert("WRONG MOVE");
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <div class="gamediv">
+        <img style="width: 50px;left: 30px;position: absolute;" src="mario.jpg">
+    </div>
+    <table class="controlcenter">
+        <tr><td colspan="3">Game board</td> </tr>
+        <tr><td></td><td><input type="button" value="UP" onclick="marioMove(0)"/></td><td></td></tr>
+        <tr><td><input type="button" value="LEFT" onclick="marioMove(3)"/></td><td></td><td><input type="button" value="RIGHT" onclick="marioMove(1)"/></td></tr>
+        <tr><td></td><td><input type="button" value="DOWN" onclick="marioMove(2)"/></td><td></td></tr>
+
+
+    </table>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
