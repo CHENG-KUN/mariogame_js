@@ -1,11 +1,21 @@
+body{
+    margin: 0px;
+}
+div, table{
+    margin-left:auto;
+    margin-right: auto;
+}
+
 .gamediv{
-    width: 500px;
+    width: 700px;
     height: 400px;
-    background-color: pink;
+    background-color: green;
 }
 
 .controlcenter{
     width: 200px;
     height: 150px;
-    border: 1px solid red;
+    margin: auto;
+    text-align: center;
+    /*border: 1px solid red;*/
 }
